@@ -26,7 +26,7 @@ Este repositório contém os materiais e a apresentação do seminário sobre **
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd SeminarioBackEnd-Containerizacao/lab/my-node-app
+   cd SeminarioBackEnd-Containerizacao-de-Aplicacoes-Node.js-com-Docker-Beneficios-e-processos/lab/my-node-app
    ```
 3. Construa a imagem Docker:
    ```bash
