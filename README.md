@@ -22,19 +22,19 @@ Este repositório contém os materiais e a apresentação do seminário sobre **
 ## Como Executar o Projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/SeminarioBackEnd-Containerizacao
+   git clone https://github.com/Tomaz-Arlindo/SeminarioBackEnd-Containerizacao-de-Aplicacoes-Node.js-com-Docker-Beneficios-e-processos.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd SeminarioBackEnd-Containerizacao
+   cd SeminarioBackEnd-Containerizacao/lab/my-node-app
    ```
 3. Construa a imagem Docker:
    ```bash
-   docker build -t node-app .
+   docker build -t my-node-app .
    ```
 4. Execute o container:
    ```bash
-   docker run -d -p 3000:3000 node-app
+   docker run -p 3000:3000 -d my-node-app
    ```
 5. Acesse a aplicação no navegador:
    - `http://localhost:3000`
